@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    background-color: rgb(78, 78, 245);
+    padding: 0 100px;
+}
+.header .logo{
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.header .logo:hover{
+    color: #bbb;
+}
+.cart_icon{
+    width: 29px;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+.cart_icon:hover{
+    color: #bbb;
+}
+.cart_icon span{
+    position: absolute;
+    top: -18px;
+    left: 20px;
+    font-size: 16px;
+    background: lightblue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
